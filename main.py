@@ -38,7 +38,7 @@ def allowed_file(filename):
 
 @app.route('/ping', methods=['GET'])
 def ping():
-	return Response('ping', 200)
+	return Response('pong', 200)
 
 @app.route('/conv', methods=['POST'])
 def convert_file():
